@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- navigation -->
-    <header>
+    <header class="relative">
       <div class="flex justify-between items-center container mx-auto p-2">
         <img src="./img/logo.svg" alt="Logo" />
         <nav class="hidden md:block">
@@ -46,7 +46,27 @@
           class="px-6 py-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight font-semibold hidden md:block"
           >Get Started</a
         >
+        <button
+          id="humburger-icon"
+          class="block humberher md:hidden focus:outline-none"
+        >
+          <span class="humburger-top"></span>
+          <span class="humburger-middle"></span>
+          <span class="humburger-bottom"></span>
+        </button>
       </div>
+      <nav
+        id="mobile-menu"
+        class="absolute drop-shadow-md py-8 mt-10 md:hidden left-6 right-6"
+      >
+        <ol class="flex flex-col items-center space-y-4 w-auto bg-white">
+          <li><a href="" class="font-semibold">Priceing</a></li>
+          <li><a href="" class="font-semibold">Product</a></li>
+          <li><a href="" class="font-semibold">About Us</a></li>
+          <li><a href="" class="font-semibold">Career</a></li>
+          <li><a href="" class="font-semibold">Community</a></li>
+        </ol>
+      </nav>
     </header>
 
     <main>
