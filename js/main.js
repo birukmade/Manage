@@ -3,5 +3,5 @@ const mobileMenuElement = document.querySelector("#mobile-menu");
 
 hamburgerbuttenElement.addEventListener("click", function () {
   hamburgerbuttenElement.classList.toggle("open");
-  mobileMenuElement.classList.toggle("hidden");
+  mobileMenuElement.classList.toggle("expanded");
 });

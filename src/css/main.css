@@ -787,9 +787,9 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .px-4 {
@@ -815,11 +815,6 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .text-center {
@@ -945,6 +940,10 @@ body {
     background-image: url("../img/bg-simplify-section-mobile.svg");
     background-repeat: no-repeat;
   }
+
+  #mobile-menu.expanded {
+    display: block;
+  }
 }
 
 .hover\:bg-brightRedLight:hover {
@@ -970,12 +969,6 @@ body {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-@media (min-width: 480px) {
-  .sm\:w-auto {
-    width: auto;
-  }
 }
 
 @media (min-width: 760px) {
